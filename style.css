@@ -1,0 +1,152 @@
+body{
+    background-image: url("theatreBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px 700px;
+}
+
+.pic-1{
+    position: absolute;
+    margin-top: 170;
+    margin-left: 150;
+    text-shadow: 2px 1px 4px rgba(8,32,48,0.68);
+    transform: rotate(2deg);
+    
+}
+
+h1:hover{
+    cursor: pointer;
+}
+
+h1:active{
+    color: yellow;
+    cursor: pointer;
+}
+
+
+.pic-2{
+    position: absolute;
+    margin-top: 230;
+    margin-left: 150;
+    text-shadow: 2px 1px 4px rgba(8,32,48,0.68);
+    transform: rotate(2deg);
+    
+}
+
+.pic-3{
+    position: absolute;
+    margin-top: 295;
+    margin-left: 150;
+    text-shadow: 2px 1px 4px rgba(8,32,48,0.68);
+    transform: rotate(2deg);
+    
+}
+
+.pic-4{
+    position: absolute;
+    margin-top: 185;
+    margin-left: 800;
+    text-shadow: 2px 1px 4px rgba(8,32,48,0.68);
+    transform: rotate(2deg);
+    
+}
+
+.pic-5{
+    position: absolute;
+    margin-top: 250;
+    margin-left: 800;
+    text-shadow: 2px 1px 4px rgba(8,32,48,0.68);
+    transform: rotate(2deg);
+    
+}
+
+.pic-6{
+    position: absolute;
+    margin-top: 310;
+    margin-left: 800;
+    text-shadow: 2px 1px 4px rgba(8,32,48,0.68);
+    transform: rotate(2deg);
+}
+
+/* a{
+    color: black;
+ }
+
+ a:active{
+    color: yellow;
+ } */
+
+/* .ticket-stub{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+} */
+
+.movie-poster{
+    position: relative;
+    margin-left: 720;
+    margin-top: 50;
+    width: 120;
+    height: 170;
+    margin-bottom: 100;
+
+}
+
+
+ .scale-up-center {
+    background-image: url(movieticket.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 900;
+    height: 300;
+    margin-left: 300;
+    margin-top: 150;
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.movie-title{
+    position: absolute;
+    margin-top: 65;
+    margin-left: 50;
+    font-size: 40;
+}
+
+.director{
+    position: absolute;
+    margin-top: 150;
+    margin-left: 50;
+    font-size: 40;
+}
+
+.year{
+    position: absolute;
+    margin-top: 215;
+    margin-left: 45;
+    font-size: 25;
+}
+
+.rated{
+    position: absolute;
+    margin-top: 215;
+    margin-left: 235;
+    font-size: 25;
+}
+
+.released{
+    position: absolute;
+    margin-top: 215;
+    margin-left: 470;
+    font-size: 25;
+}
+
+.myButton {
+    position: absolute;
+    margin-left: 875;
+    color: rgb(255, 235, 3); font-size: 15px; line-height: 15px; padding: 4px; border-radius: 50px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: uppercase; background-image: linear-gradient(to right, rgb(17, 18, 18) 0%, rgb(52, 53, 53) 50%, rgb(1, 7, 11) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(255, 238, 0); display: inline-block;}
+    .myButton:hover {
+    background: #fffb00;
+    color: black; 
+}
+    .myButton:active {
+    background: #030303; }
