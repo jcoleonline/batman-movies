@@ -7,7 +7,7 @@ let batman3 = document.querySelector(".pic-3");
 let batman4 = document.querySelector(".pic-4");
 let batman5 = document.querySelector(".pic-5");
 let batman6 = document.querySelector(".pic-6");
-const baseUrl = 'http://www.omdbapi.com/?apikey=7b4e5388';
+const baseUrl = 'https://www.omdbapi.com/?apikey=7b4e5388';
 // let xButton = document.querySelector(".movie-poster")
 
 
